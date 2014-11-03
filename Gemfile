@@ -29,6 +29,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Development Gems
+group :development do
+	gem 'html2haml'
+end
+
 # Use Testing
 group :test do
 	gem 'minitest-rails'
