@@ -8,6 +8,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'haml-rails'
 gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 gem 'pry-rails'
 
 gem 'jquery-rails'
@@ -32,6 +33,7 @@ gem 'spring',        group: :development
 # Development Gems
 group :development do
 	gem 'html2haml'
+	gem 'better_errors'
 end
 
 # Use Testing
